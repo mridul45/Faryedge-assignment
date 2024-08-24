@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.master-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+.container1{
+    height: 100%;
+    width: 20%;
+}
+
+
+.logo{
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navigation{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.navigation ul li{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.container2{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(228, 233, 236);
+}
+
+
+.container2 .container2-nav{
+    background-color:rgb(255, 254, 254);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.container2 .container2-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.container2 .container2-nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.container2 .container2-overview{
+    height: fit-content;
+    width: 80%;
+    background-color:rgb(255, 254, 254);
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+
+
+.container2 .container2-overview .input1{
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.container2 .container2-overview .input1 input{
+    padding: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(224, 191, 255);
+}
+
+
+
+.container2 .container2-overview .input2{
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.container2 .container2-overview .input2 textarea{
+    background-color: rgb(224, 191, 255);
+}
+
+
+.container2 .container2-overview .input3{
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.container2 .container2-overview .input3 input{
+    background-color: rgb(224, 191, 255);
+}
+
+
+.container2 .container2-overview .input4{
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.container2 .container2-overview .input4 input{
+    padding: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(224, 191, 255);
+}
+
+
+.btn{
+    padding: 1rem;
+    margin-left: 1.8rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: slateblue;
+    border: none;
+    color: whitesmoke;
+}
+
+
+.final-section{
+    background-color: white;
+    padding: 1rem;
+    width: 80%;
+    margin-left: 1.9rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+
+.final-section .entry1-title{
+    padding: 1rem;
+}
+
+
+.final-section .entry1-data{
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.final-section .entry1-data input{
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+
+
+.final-section .entry1-data .entry1-data-btn{
+    padding: 0.5rem;
+    width: 25%;
+    border-radius: 10px;
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+}
